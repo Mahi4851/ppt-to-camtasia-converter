@@ -1,0 +1,24 @@
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# Local inputs, intermediate exports, and generated projects
+input/*
+!input/README_INPUT.txt
+working/
+output/
+*.pptx
+*.ppt
+*.tscproj
+*_CAMTASIA_PROJECT/
+*_CAMTASIA_PROJECT.zip
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
